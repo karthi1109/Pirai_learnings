@@ -1,8 +1,8 @@
 provider "aws" {
     region = "ap-southeast-1"
     version = "2.17.0"
-    access_key = "AKIAXEP3YY4YB743BECE"
-    secret_key = "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"
+    access_key = "accesskey"
+    secret_key = "secretkey"
 }
 
 resource "aws_instance" "terra1" {
